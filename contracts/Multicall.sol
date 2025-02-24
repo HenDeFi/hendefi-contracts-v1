@@ -30,7 +30,7 @@ contract Multicall {
     /*===================================================================*/
     /*===========================  SETTINGS  ============================*/
 
-    address public constant ORACLE = 0x0000000000000000000000000000000000000000;
+    address public constant ORACLE = 0x316b1536978bee10c47b3c74c0b3995aabae973a3351621680a2aa383aca77b8;
     bytes32 public constant FEED_ID = 0x0;
 
     /*===========================  END SETTINGS  ========================*/

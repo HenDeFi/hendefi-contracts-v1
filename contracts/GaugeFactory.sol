@@ -8,7 +8,7 @@ import "contracts/interfaces/IVoter.sol";
 
 /**
  * @title Gauge
- * @author heesho
+ * @author akita
  * 
  * Gauges distribute OTOKEN to farmers based on their deposit balance. 
  * Rewards are distributed over a 7 day period.

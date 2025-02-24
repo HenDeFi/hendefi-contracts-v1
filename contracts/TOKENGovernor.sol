@@ -9,7 +9,7 @@ import "@openzeppelin/contracts/governance/extensions/GovernorVotesQuorumFractio
 
 /**
  * @title TOKENGovernor
- * @author heesho
+ * @author akita
  * 
  * Onchain governance for VTOKEN.
  */
@@ -18,7 +18,7 @@ contract TOKENGovernor is Governor, GovernorSettings, GovernorCountingSimple, Go
     /*===================================================================*/
     /*===========================  SETTINGS  ============================*/
 
-    string internal constant NAME = 'BERADROME Governor';  // Name of Governor
+    string internal constant NAME = 'Hen Governor';  // Name of Governor
 
     uint256 internal constant BLOCKTIME = 5;            // Number of seconds per block (eg 10 seconds per block)
     uint256 internal constant VOTING_DELAY = 1 days;      // Delay (seconds) since proposal creation to when voting can start (updatable by governance)

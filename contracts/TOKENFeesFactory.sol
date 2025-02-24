@@ -9,7 +9,7 @@ import "contracts/interfaces/IVTOKENRewarder.sol";
 
 /**
  * @title TOKENFees
- * @author heesho
+ * @author akita
  * 
  * TOKENFees collects fees from bonding curve (TOKEN contract) and distributed 
  * them to VTOKEN stakers (Rewarder) and treasury.

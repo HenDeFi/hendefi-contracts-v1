@@ -7,7 +7,7 @@ import "@openzeppelin/contracts/utils/math/Math.sol";
 
 /**
  * @title Bribe
- * @author heesho
+ * @author akita
  * 
  * Bribe contract for distributing voting rewards to VTOKEN holders that vote for plugins
  * on the Voter contract. Rewards are distributed over 7 days. Rewards are distributed

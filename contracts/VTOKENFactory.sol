@@ -18,7 +18,7 @@ import "contracts/interfaces/IVTOKENRewarderFactory.sol";
 
 /**
  * @title VTOKEN
- * @author heesho
+ * @author akita
  * 
  * VTOKEN is a staking contract for TOKEN. VTOKEN is minted when TOKEN is deposited and burned when TOKEN is withdrawn.
  * VTOKEN holders govern the system and have voting power on gauges where they can earn voting rewards.
@@ -40,8 +40,8 @@ contract VTOKEN is ERC20, ERC20Permit, ERC20Votes, ReentrancyGuard, Ownable {
     /*===================================================================*/
     /*===========================  SETTINGS  ============================*/
 
-    string internal constant NAME = 'BERADROME Voter';      // Name of VTOKEN
-    string internal constant SYMBOL = 'hiBERO';         // Symbol of VTOKEN
+    string internal constant NAME = 'Hen Voter';      // Name of VTOKEN
+    string internal constant SYMBOL = 'vHEN';         // Symbol of VTOKEN
 
     /*===========================  END SETTINGS  ========================*/
     /*===================================================================*/

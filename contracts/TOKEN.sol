@@ -13,7 +13,7 @@ import "contracts/interfaces/ITOKENFeesFactory.sol";
 
 /**
  * @title TOKEN Bonding Curve
- * @author heesho
+ * @author akita
  * 
  * This contract governs the price dynamics of an ERC20 TOKEN via a dual bonding curve mechanism:
  * 1. A fixed-price curve, y = c, where the TOKEN price is invariant at 1 BASE/TOKEN (the floor price). 
@@ -59,8 +59,8 @@ contract TOKEN is ERC20, ReentrancyGuard {
     /*===================================================================*/
     /*===========================  SETTINGS  ============================*/
 
-    string internal constant NAME = 'BERADROME';     // Name of TOKEN
-    string internal constant SYMBOL = 'BERO';       // Symbol of TOKEN
+    string internal constant NAME = 'Hen';     // Name of TOKEN
+    string internal constant SYMBOL = 'HEN';       // Symbol of TOKEN
 
     uint256 public constant PROTOCOL_FEE = 50;      // Swap and borrow fee: buy, sell, borrow
     uint256 public constant PROVIDER_FEE = 4000;    // Fee for the UI hosting provider

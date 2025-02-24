@@ -7,7 +7,7 @@ import "@openzeppelin/contracts/utils/math/Math.sol";
 
 /**
  * @title VTOKENRewarder
- * @author heesho
+ * @author akita
  * 
  * VTOKENRewarder distributes rewards to VTOKEN stakers. The VTOKEN contract will deposit/withdraw virtual balances
  * to this contract based on when users deposit/withdraw/burn in the VTOKEN contract. The user balance in this contract

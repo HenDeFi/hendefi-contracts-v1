@@ -11,13 +11,13 @@ import "contracts/interfaces/IVoter.sol";
 
 /**
  * @title Minter
- * @author heesho
+ * @author akita
  * 
  * Mints OTOKEN and distributes them to the Voter (to diribute to gauges), the team
  * and the growth fund (VTOKEN stakers).
  * 
  * Mints OTOKEN every week starting with {weekly} OTOKENs per week and decreases by 1% every week
- * until it reaches tail emissions, which is a constant emission rate of OTOKENS per week.
+ * until it reaches tail emissions, which is a constant emission rate of OTOKEN per week.
  * 
  * Tail emissions are a constant value settable by governance.
  */
@@ -34,7 +34,7 @@ contract Minter is Ownable {
     uint internal constant MIN_TAIL_EMISSION_RATE = 25;    // 100 OTOKEN per week
 
     uint internal constant GROWTH_RATE = 20;    // 20% of emissions go to growth (stakers)
-    uint internal constant TEAM_RATE = 5;       // 5% of emissions go to the team
+    uint internal constant TEAM_RATE = 10;       // 10% of emissions go to the team
 
     /*===========================  END SETTINGS  ========================*/
     /*===================================================================*/
