@@ -7,7 +7,7 @@ require("solidity-coverage");
 /*===================================================================*/
 /*===========================  SETTINGS  ============================*/
 
-const CHAIN_ID = 2061; // bera testnet
+const CHAIN_ID = 146; // Sonic Mainnet
 
 /*===========================  END SETTINGS  ========================*/
 /*===================================================================*/
@@ -45,10 +45,9 @@ module.exports = {
   },
   networks: {
     hardhat: {},
-    mainnet: {
-      url: RPC_URL,
+    sonic: {
+      url: RPC_URL || "https://rpc.soniclabs.com",
       chainId: CHAIN_ID,
-      //gasPrice: 1000000000,
       accounts: [PRIVATE_KEY],
     },
   },
