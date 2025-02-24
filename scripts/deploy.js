@@ -46,7 +46,7 @@ async function getContracts() {
      voter = await ethers.getContractAt("contracts/Voter.sol:Voter", "0xB85213e2be9fd369Eb502532d0Ae9a8Fc1D8883E");
      minter = await ethers.getContractAt("contracts/Minter.sol:Minter", "0xc96Fa750f4D10d38698c368AaBFDA74ad6e7d124");
 
-     multicall = await ethers.getContractAt("contracts/Multicall.sol:Multicall", "0x7059AccEf94794C0728C8209Acf14E8F7F4d3D1c");
+     multicall = await ethers.getContractAt("contracts/Multicall.sol:Multicall", "0x5fCd059a7871aaD4C82E0CA0Ec20662a871a8b0e");
      controller = await ethers.getContractAt("contracts/Controller.sol:Controller", "0xaaA2cF309EF8eD96A8Fa03b7F08565EF52b31640");
 
     //console.log("Contracts Retrieved");
